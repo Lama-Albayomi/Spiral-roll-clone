@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PathToScrape
   - Obstical
+  - Spiral
   layers:
   - Default
   - TransparentFX

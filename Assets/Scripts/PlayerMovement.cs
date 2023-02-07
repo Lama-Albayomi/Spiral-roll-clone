@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         spiral.StopedScraping();
         spiral=null;
     }
-    private void BreakScraper(){
+    public void BreakScraper(){
         // lose animation
         animator.SetInteger("State",scraperBreak);
         Debug.Log("BreakScraper");
